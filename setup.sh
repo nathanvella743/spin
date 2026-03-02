@@ -1,5 +1,5 @@
 rm -fr image.raw ffr-build.tar.gz
-tar czvf ffr-bulid.tar.gz ffr-build
+tar czvf ffr-build.tar.gz ffr-build
 CNAME=fedora-pi-builder-$RANDOM
 docker rmi spin-pi-fedora-builder
 docker build -t spin-pi-fedora-builder .
